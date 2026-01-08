@@ -7,7 +7,8 @@ mod valid_palindrome_4;
 mod valid_word_abbreviation;
 mod merge_strings_alternately;
 mod merge_sorted_array;
+mod remove_duplicates_from_sorted_array;
 
 fn main() {
-    merge_sorted_array::main();
+    remove_duplicates_from_sorted_array::main();
 }
