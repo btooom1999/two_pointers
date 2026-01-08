@@ -5,11 +5,8 @@ fn valid_word_abbreviation(word: String, abbr: String) -> bool {
     let abbr = abbr.chars().collect::<Vec<_>>();
 
     let mut nums = Vec::<usize>::new();
-    let mut flag = false;
     for (i, c) in abbr.iter().enumerate() {
         if c.is_ascii_digit() {
-            flag = true;
-
             if (i == 0 && *c == '0')
                 || (i > 0 && *c == '0' && !abbr[i-1].is_ascii_digit()) {
                 return false;
@@ -30,7 +27,7 @@ fn valid_word_abbreviation(word: String, abbr: String) -> bool {
         }
     }
 
-    if !flag {
+    if nums.is_empty() {
         return word == abbr;
     }
 
