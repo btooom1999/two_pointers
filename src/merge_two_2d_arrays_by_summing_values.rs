@@ -1,16 +1,24 @@
 use std::collections::BTreeMap;
 
 fn merge_arrays(nums1: Vec<Vec<i32>>, nums2: Vec<Vec<i32>>) -> Vec<Vec<i32>> {
-    let mut hashmap = BTreeMap::<i32, i32>::new();
-    for nums in nums1 {
-        hashmap.insert(nums[0], nums[1]);
+    let mut res = Vec::new();
+    let mut i = 0;
+    let mut j = 0;
+    while i < nums1.len() || j < nums2.len() {
+        if j >= nums2.len() || (i < nums1.len() && nums1[i][0] < nums2[j][0]) {
+            res.push(nums1[i].clone());
+            i += 1;
+        } else if i >= nums1.len() || (j < nums2.len() && nums1[i][0] > nums2[j][0]) {
+            res.push(nums2[j].clone());
+            j += 1;
+        } else {
+            res.push(vec![nums1[i][0], nums1[i][1] + nums2[j][1]]);
+            i += 1;
+            j += 1;
+        }
     }
 
-    for nums in nums2 {
-        hashmap.entry(nums[0]).and_modify(|v| *v += nums[1]).or_insert(nums[1]);
-    }
-
-    hashmap.into_iter().map(|(k, v)| Vec::from([k, v])).collect::<Vec<_>>()
+    res
 }
 
 pub fn main() {
