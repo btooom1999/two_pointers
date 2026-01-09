@@ -20,5 +20,5 @@ mod backspace_string_compare;
 mod check_if_two_string_arrays_are_equivalent;
 
 fn main() {
-    check_if_two_string_arrays_are_equivalent::main();
+    merge_two_2d_arrays_by_summing_values::main();
 }
