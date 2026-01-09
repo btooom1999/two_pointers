@@ -12,7 +12,8 @@ mod two_sum_2_input_array_is_sorted;
 mod merge_two_2d_arrays_by_summing_values;
 mod sort_array_by_parity;
 mod move_zeroes;
+mod squares_of_a_sorted_array;
 
 fn main() {
-    move_zeroes::main();
+    squares_of_a_sorted_array::main();
 }
