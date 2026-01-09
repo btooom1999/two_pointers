@@ -18,7 +18,8 @@ mod reverse_string_2;
 mod reverse_words_in_a_string_3;
 mod backspace_string_compare;
 mod check_if_two_string_arrays_are_equivalent;
+mod apply_operations_to_an_array;
 
 fn main() {
-    merge_two_2d_arrays_by_summing_values::main();
+    apply_operations_to_an_array::main();
 }
