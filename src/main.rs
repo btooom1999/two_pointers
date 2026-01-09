@@ -9,8 +9,9 @@ mod merge_strings_alternately;
 mod merge_sorted_array;
 mod remove_duplicates_from_sorted_array;
 mod two_sum_2_input_array_is_sorted;
+mod merge_two_2d_arrays_by_summing_values;
 mod sort_array_by_parity;
 
 fn main() {
-    sort_array_by_parity::main();
+    merge_two_2d_arrays_by_summing_values::main();
 }
