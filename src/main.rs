@@ -16,7 +16,8 @@ mod squares_of_a_sorted_array;
 mod assign_cookies;
 mod reverse_string_2;
 mod reverse_words_in_a_string_3;
+mod backspace_string_compare;
 
 fn main() {
-    reverse_words_in_a_string_3::main();
+    backspace_string_compare::main();
 }
