@@ -15,7 +15,8 @@ mod move_zeroes;
 mod squares_of_a_sorted_array;
 mod assign_cookies;
 mod reverse_string_2;
+mod reverse_words_in_a_string_3;
 
 fn main() {
-    reverse_string_2::main();
+    reverse_words_in_a_string_3::main();
 }
