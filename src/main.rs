@@ -11,7 +11,8 @@ mod remove_duplicates_from_sorted_array;
 mod two_sum_2_input_array_is_sorted;
 mod merge_two_2d_arrays_by_summing_values;
 mod sort_array_by_parity;
+mod move_zeroes;
 
 fn main() {
-    merge_two_2d_arrays_by_summing_values::main();
+    move_zeroes::main();
 }
