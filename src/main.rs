@@ -13,7 +13,8 @@ mod merge_two_2d_arrays_by_summing_values;
 mod sort_array_by_parity;
 mod move_zeroes;
 mod squares_of_a_sorted_array;
+mod assign_cookies;
 
 fn main() {
-    squares_of_a_sorted_array::main();
+    assign_cookies::main();
 }
