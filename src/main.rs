@@ -14,7 +14,8 @@ mod sort_array_by_parity;
 mod move_zeroes;
 mod squares_of_a_sorted_array;
 mod assign_cookies;
+mod reverse_string_2;
 
 fn main() {
-    assign_cookies::main();
+    reverse_string_2::main();
 }
