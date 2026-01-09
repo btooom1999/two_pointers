@@ -17,7 +17,8 @@ mod assign_cookies;
 mod reverse_string_2;
 mod reverse_words_in_a_string_3;
 mod backspace_string_compare;
+mod check_if_two_string_arrays_are_equivalent;
 
 fn main() {
-    backspace_string_compare::main();
+    check_if_two_string_arrays_are_equivalent::main();
 }
