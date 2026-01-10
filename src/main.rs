@@ -13,6 +13,7 @@ mod merge_two_2d_arrays_by_summing_values;
 mod sort_array_by_parity;
 mod move_zeroes;
 mod squares_of_a_sorted_array;
+mod three_sum;
 mod assign_cookies;
 mod reverse_string_2;
 mod reverse_words_in_a_string_3;
@@ -25,5 +26,5 @@ mod remove_duplicates_from_sorted_array_2;
 mod parition_array_according_to_given_pivot;
 
 fn main() {
-    parition_array_according_to_given_pivot::main();
+    three_sum::main();
 }
