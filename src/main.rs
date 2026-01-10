@@ -14,6 +14,7 @@ mod sort_array_by_parity;
 mod move_zeroes;
 mod squares_of_a_sorted_array;
 mod three_sum;
+mod rotate_array;
 mod four_sum;
 mod assign_cookies;
 mod reverse_string_2;
@@ -27,5 +28,5 @@ mod remove_duplicates_from_sorted_array_2;
 mod parition_array_according_to_given_pivot;
 
 fn main() {
-    four_sum::main();
+    rotate_array::main();
 }
