@@ -22,7 +22,8 @@ mod apply_operations_to_an_array;
 mod adding_spaces_to_a_string;
 mod string_compression;
 mod remove_duplicates_from_sorted_array_2;
+mod parition_array_according_to_given_pivot;
 
 fn main() {
-    remove_duplicates_from_sorted_array_2::main();
+    parition_array_according_to_given_pivot::main();
 }
