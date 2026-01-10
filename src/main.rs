@@ -20,7 +20,8 @@ mod backspace_string_compare;
 mod check_if_two_string_arrays_are_equivalent;
 mod apply_operations_to_an_array;
 mod adding_spaces_to_a_string;
+mod string_compression;
 
 fn main() {
-    adding_spaces_to_a_string::main();
+    string_compression::main();
 }
