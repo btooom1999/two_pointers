@@ -19,7 +19,8 @@ mod reverse_words_in_a_string_3;
 mod backspace_string_compare;
 mod check_if_two_string_arrays_are_equivalent;
 mod apply_operations_to_an_array;
+mod adding_spaces_to_a_string;
 
 fn main() {
-    apply_operations_to_an_array::main();
+    adding_spaces_to_a_string::main();
 }
