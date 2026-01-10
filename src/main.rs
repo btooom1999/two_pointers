@@ -21,7 +21,8 @@ mod check_if_two_string_arrays_are_equivalent;
 mod apply_operations_to_an_array;
 mod adding_spaces_to_a_string;
 mod string_compression;
+mod remove_duplicates_from_sorted_array_2;
 
 fn main() {
-    string_compression::main();
+    remove_duplicates_from_sorted_array_2::main();
 }
