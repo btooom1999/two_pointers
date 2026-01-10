@@ -26,7 +26,8 @@ mod adding_spaces_to_a_string;
 mod string_compression;
 mod remove_duplicates_from_sorted_array_2;
 mod parition_array_according_to_given_pivot;
+mod container_with_most_water;
 
 fn main() {
-    rotate_array::main();
+    container_with_most_water::main();
 }
