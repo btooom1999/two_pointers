@@ -29,7 +29,8 @@ mod parition_array_according_to_given_pivot;
 mod container_with_most_water;
 mod number_of_subsequences_that_satisfy_the_given_sum_condition;
 mod array_with_elements_not_equal_to_average_of_neighbors;
+mod divide_players_into_teams_of_equal_skill;
 
 fn main() {
-    array_with_elements_not_equal_to_average_of_neighbors::main();
+    divide_players_into_teams_of_equal_skill::main();
 }
