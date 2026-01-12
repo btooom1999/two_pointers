@@ -27,7 +27,8 @@ mod string_compression;
 mod remove_duplicates_from_sorted_array_2;
 mod parition_array_according_to_given_pivot;
 mod container_with_most_water;
+mod number_of_subsequences_that_satisfy_the_given_sum_condition;
 
 fn main() {
-    container_with_most_water::main();
+    number_of_subsequences_that_satisfy_the_given_sum_condition::main();
 }
