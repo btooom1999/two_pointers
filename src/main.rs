@@ -32,7 +32,8 @@ mod array_with_elements_not_equal_to_average_of_neighbors;
 mod divide_players_into_teams_of_equal_skill;
 mod boats_to_save_people;
 mod rearrange_array_elements_by_sign;
+mod bag_of_tokens;
 
 fn main() {
-    rearrange_array_elements_by_sign::main();
+    bag_of_tokens::main();
 }
