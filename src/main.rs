@@ -33,7 +33,8 @@ mod divide_players_into_teams_of_equal_skill;
 mod boats_to_save_people;
 mod rearrange_array_elements_by_sign;
 mod bag_of_tokens;
+mod sentence_similarity_3;
 
 fn main() {
-    bag_of_tokens::main();
+    sentence_similarity_3::main();
 }
