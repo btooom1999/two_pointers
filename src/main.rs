@@ -34,7 +34,8 @@ mod boats_to_save_people;
 mod rearrange_array_elements_by_sign;
 mod bag_of_tokens;
 mod sentence_similarity_3;
+mod minimum_length_of_string_after_deleting_similar_ends;
 
 fn main() {
-    sentence_similarity_3::main();
+    minimum_length_of_string_after_deleting_similar_ends::main();
 }
