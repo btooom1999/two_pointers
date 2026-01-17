@@ -36,7 +36,8 @@ mod bag_of_tokens;
 mod sentence_similarity_3;
 mod minimum_length_of_string_after_deleting_similar_ends;
 mod car_fleet;
+mod count_collisions_on_a_road;
 
 fn main() {
-    car_fleet::main();
+    count_collisions_on_a_road::main();
 }
