@@ -35,7 +35,8 @@ mod rearrange_array_elements_by_sign;
 mod bag_of_tokens;
 mod sentence_similarity_3;
 mod minimum_length_of_string_after_deleting_similar_ends;
+mod shortest_unsorted_continuous_subarray;
 
 fn main() {
-    minimum_length_of_string_after_deleting_similar_ends::main();
+    shortest_unsorted_continuous_subarray::main();
 }
