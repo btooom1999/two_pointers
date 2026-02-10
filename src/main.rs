@@ -36,7 +36,8 @@ mod bag_of_tokens;
 mod sentence_similarity_3;
 mod minimum_length_of_string_after_deleting_similar_ends;
 mod shortest_unsorted_continuous_subarray;
+mod count_the_number_of_fair_pairs;
 
 fn main() {
-    shortest_unsorted_continuous_subarray::main();
+    count_the_number_of_fair_pairs::main();
 }
