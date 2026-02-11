@@ -37,7 +37,8 @@ mod sentence_similarity_3;
 mod minimum_length_of_string_after_deleting_similar_ends;
 mod shortest_unsorted_continuous_subarray;
 mod count_the_number_of_fair_pairs;
+mod missing_element_in_sorted_array;
 
 fn main() {
-    count_the_number_of_fair_pairs::main();
+    missing_element_in_sorted_array::main();
 }
