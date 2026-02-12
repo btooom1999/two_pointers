@@ -37,9 +37,7 @@ mod sentence_similarity_3;
 mod minimum_length_of_string_after_deleting_similar_ends;
 mod shortest_unsorted_continuous_subarray;
 mod count_the_number_of_fair_pairs;
-mod missing_element_in_sorted_array;
-mod find_the_index_of_the_larger_integer;
 
 fn main() {
-    find_the_index_of_the_larger_integer::main();
+    count_the_number_of_fair_pairs::main();
 }
