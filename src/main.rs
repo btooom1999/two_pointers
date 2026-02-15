@@ -37,7 +37,8 @@ mod sentence_similarity_3;
 mod minimum_length_of_string_after_deleting_similar_ends;
 mod shortest_unsorted_continuous_subarray;
 mod count_the_number_of_fair_pairs;
+mod maximum_enemy_forts_that_can_be_captured;
 
 fn main() {
-    count_the_number_of_fair_pairs::main();
+    maximum_enemy_forts_that_can_be_captured::main();
 }
